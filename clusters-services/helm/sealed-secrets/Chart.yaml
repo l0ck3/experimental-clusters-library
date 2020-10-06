@@ -1,0 +1,11 @@
+apiVersion: v2
+name: sealed-secrets
+description: Sealed Secrets chart for Fewlines Platform
+type: application
+version: 0.1.0
+appVersion: 0.12.4
+
+dependencies:
+- name: sealed-secrets
+  version: 1.10.3
+  repository: https://kubernetes-charts.storage.googleapis.com
